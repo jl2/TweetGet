@@ -1,0 +1,18 @@
+Playing around with the Twitter API using C.
+
+Probably useless to everyone but me, but I wanted to try out libxml and libcurl.
+
+Uses libcurl to download a user's public Twitter "timeline" as XML.
+
+Uses libxml to parse it.
+
+To build:
+   make
+
+To run:
+   ./twits <username> <number>
+
+Example:
+   ./twits jl_2
+
+Defaults to downloading 10 of my (jl_2) tweets.
